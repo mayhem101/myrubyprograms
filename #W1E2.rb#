@@ -1,13 +1,10 @@
-def split_by_new_line(input_string)
+def linefy(input_string)
 line_out = ""
 s_array=input_string.split(/\n/)
 length=(s_array.length).to_s.length
 s_array.each_with_index do |line,index|
-  #puts "Line #{format("%#{length}.f",index.next)} : #{line}"
     line_out += "Line " + format("%#{length}.f",index.next) + " : " + "#{line}" + "\n"
-    #puts line_out
-    # puts "Line #{format("%.#{length}f",#{index.next} : #{line}"
- end
+  end
 line_out
 end
 

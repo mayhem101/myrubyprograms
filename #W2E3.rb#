@@ -1,7 +1,5 @@
 def leap_year?(year_value)
    year_value % 100 == 0 ? year_value % 400 == 0 : year_value % 4 == 0
-
-#  (year_value % 100 == 0 && year_value % 400 == 0) || year_value % 4 == 0
 end
 
 
