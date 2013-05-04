@@ -1,5 +1,5 @@
 def array_sum(array)
-  array.inject(0) { |result, element| result+element}
+  array.inject(:+)
 end
 
 a = [1,2,3,4,5]

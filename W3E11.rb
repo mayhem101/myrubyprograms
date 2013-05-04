@@ -1,5 +1,5 @@
 def odd_even(number)
-  number % 2 == 0 ? "even" : "odd"
+  number.even? ? "even" : "odd"
 end
 
 collected_inputs =  [12, 23, 456, 123, 4579]
