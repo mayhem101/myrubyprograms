@@ -8,4 +8,4 @@ end
 
 quiz = [0,0,0,1,0,0,1,1,0,1]
 data = quiz_stats(quiz)
-puts "The number of participants who did not attempt Quiz 1 is #{data[:nonattempts]} out of #{data[:nonattempts]+data[:attempts]}"
+puts "The number of participants who did not attempt Quiz 1 is #{data[:nonattempts]} out of #{quiz.length}"
