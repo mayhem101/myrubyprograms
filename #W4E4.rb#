@@ -2,7 +2,7 @@ class FileSwapper
   attr_accessor :file1,:file2
 @temp1,@temp2 = [],[]
 
-  
+
   def initialize(file1,file2)
     @file1 = file1
     @file2 = file2
